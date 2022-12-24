@@ -1,0 +1,322 @@
+.widgetTitle{
+  height: 50px;
+  line-height: 26px;
+  color:rgba(136,136,136);
+  margin-bottom:16px;
+  display: flex;
+}
+.widgetTitle :global(.iconfont){
+  font-size: 30px;
+  margin-right: 20px;
+  cursor:pointer;
+  color: #505766
+}
+.widgetTitle :global(button){
+  border: 1px solid transparent;
+  box-sizing: border-box;
+  font-weight: bold;
+  background: #fff;
+}
+.widgetTitle :global(button:hover){
+  border: 1px solid 505766;
+  box-sizing: border-box;
+  font-weight: bold;
+  background: #fff;
+}
+.widgetTitle :global(button i){
+  color: #505766!important;
+  border-color: #505766;
+  font-size: 16px !important;
+  margin-left:0;
+}
+.widgetTitle :global(button:hover i::before){
+  color: #353C4A!important;
+  border-color: #353C4A;
+}
+.widgetTitle :global(button:hover){
+  color: #353C4A!important;
+  border-color: #353C4A;
+}
+.widgetTitle :global(button){
+  border-color: #505766;
+}
+.widgetTitle :global(button i::before){
+  position: relative;
+  top: -3px;
+  left: 2px;
+}
+.widgetTitle :global(button.right i){
+  color: #588CE9!important;
+  border-color: #588CE9
+}
+
+.widgetTitle :global(button.right i::before){
+  color: #0E9E6E!important;
+  border-color: #588CE9;
+  left: 1px;
+}
+.widgetTitle :global(button.right:hover){
+  border-color: #505766;
+}
+.widgetTitle :global(button.right:hover i::before){
+  color: #0E9E6E!important;
+}
+.widgetTitle :global(button.right){
+  border-color: #505766;
+  margin: 0 4px;
+}
+/* .widgetTitle :global(.u-checkbox input[type=checkbox]){
+  top:18px;
+} */
+.addBtn, .addGroupBtn{
+	display: -webkit-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  -webkit-justify-content: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  -webkit-align-items: center;
+  align-items: center;
+}
+
+.addGroupBtn{
+  font-size:14px;
+  color:rgba(71,77,84,1);
+}
+.addBtn :global(.diworkiconfont ){
+  font-size: 17px;
+  font-weight: bold;
+  vertical-align: -3px;
+  color: #505766; 
+}
+/**
+.addGroupBtn{
+	// display:flex;
+	height:28px;
+	background: #fff;
+	border: 1px solid #D9D9D9;
+	border-radius:3px;
+	padding:0 8px;
+	margin:15px 0;
+	font-size:12px;
+	line-height:26px;
+	color:rgba(74,81,93,1);
+}
+.addGroupBtn:hover{
+	color:#E14C46;
+}
+.addGroupBtn :global(.iconfont){
+	font-size:16px;
+	line-height:26px;
+	font-weight:900;
+	color:#878b94;
+	margin:0 5px;
+	box-flex:1;
+	-webkit-box-flex:1;
+}
+
+
+.widgetTitle :global(.u-button){
+	height:22px;
+	background:#fff;
+	padding: 0px;
+	border-radius:3px;
+	margin:8px;
+	margin-top: 6px;
+	font-size: 12px;
+	line-height: 22px;
+	color:#4A515D;
+	min-width:4.2rem;
+}
+.widgetTitle button:hover{
+	background:rgba(225,76,70,1);
+	color:#fff;
+}
+**/
+.titleInputArea .input{
+  /* width:176px;
+  height:22px;
+  padding:0 9px;
+	font-size:12px;
+  color:rgba(51,51,51,1);
+  float: left; */
+}
+.newGroupName{
+	width:176px;
+	height:22px;
+	padding:0 9px;
+	font-size:12px;
+  color:#111111;
+  float: left;
+  color: #505766;
+  border-radius: 3px;
+}
+.titleInputArea :global(#widgetNameMultiLangText){
+  width:176px;
+	height:22px;
+	padding:0 9px;
+	font-size:12px;
+  color:#111111;
+  float: left;
+  color: #505766;
+  border-radius: 3px;
+}
+.titleInputArea :global(.ac-input-locale .input-icon){
+  top: -4px!important;
+  right: 4px!important;
+}
+.newGroupName:global(.input){
+  width:176px;
+  height:22px;
+  
+}
+
+.newGroupName_focus{
+	border:1px solid #505766;
+}
+.newGroupName_blur{
+  border:1px solid #505766;
+}
+.widgetTitle :global(.uf),.widgetTitle :global(.iconfont){
+	font-size:22px;
+	color:#555555;
+	margin-right:23px;
+	font-weight: bold;
+}
+.widgetTitle :global(.iconfont):hover{
+	color:#353c4a;
+}
+.widgetTitle .btn{
+  display: inline-block;
+  vertical-align: middle;
+  margin-left: 0px;
+  text-align: center;
+  position: relative;
+  min-width: auto;
+  padding: 0;
+}
+.widgetTitle .btn>span{
+  position: absolute;
+  top: -6px;
+  right: 6px;
+}
+.titleInputArea{
+  position:relative;
+  display: inline-block;
+  /* height: 22px; */
+  line-height: 22px;
+  overflow: hidden;
+  vertical-align: middle;
+}
+.titleInputArea .icon{
+	cursor: pointer;
+	color:rgb(179,179,179);
+	font-size:14px;
+	margin:0;
+	position:absolute;
+  	right:0;
+  	top: 50%;
+  	transform: translate(0, -50%);
+  	font-size: 20px;
+}
+.newGroupName+:global(.uf):hover{
+	color:#4A515D;
+}
+.groupArea>section{
+  border: 1px solid #fff;
+  min-width: 460px;
+  border-radius:3px;
+  padding: 0.5rem 2rem 2.5rem 2rem;
+  margin-bottom: 0.5rem;
+  margin-top: 0.5rem;
+  background:rgba(247, 249, 253, .3);
+  cursor: move;
+}
+.groupArea :global(#widget-container){
+  position: relative;
+  font-family: Microsoft YaHei,Arial!important;
+}
+.addBtn :global(.u-button){
+  width: 100%;
+  margin: 0 0 16px 0;
+}
+.addBtn :global(.u-button:hover){
+  background: rgba(255,255,255,0.6);
+}
+.selectedBackClass{
+  background:#dee0e3 !important;
+  border:2px solid #588CE9 !important;
+}
+.iconBox{
+  position: relative;
+}
+.iconBox :global(.diworkiconfont.disabled::before) {
+  color: #999
+}
+.iconBox :global(.u8ciconfont.disabled::before) {
+  color: rgb(80, 87, 102,0.3)
+}
+.iconBox p{
+  top:34px;
+  font-size:12px;
+  position: absolute;
+  background: #b3b3b3;
+  width:70px;
+  line-height: 30px;
+  text-align: center;
+  left: 50%;
+  -webkit-transform: translate(-50%, 0);
+  transform: translate(-50%, 0);
+}
+.widgetTitleInit>div{
+  display: flex;
+  align-items: flex-end;
+  justify-content:center;
+  display: table-cell;
+  height: 50px;
+  line-height: 50px;
+}
+/* IE9 */
+.widgetTitleInit{
+  display: table;
+  width: 100%;
+}
+.widgetTitleInit>div:nth-child(2){
+  width: 182px;
+}
+.widgetTitleInit>div:nth-child(2)>div{
+  display: inline-table;
+}
+.widgetTitleInit :global(.u-checkbox .u-checkbox-label:before){
+  top:-14px;
+}
+.widgetTitleInit :global(.u-checkbox .u-checkbox-label:after){
+  top:-13px;
+}
+.check_group :global(.u-checkbox){
+  display:inline;
+}
+.check_group :global(.titleText){
+  margin-left:10px;
+  color:#111111
+}
+.noChildStyle{
+  margin-left: 18px;
+  color: #FF8B00;
+  line-height: 26px;
+  border-radius: 4px;
+  border: 1px solid rgba(255,171,0,0.5);
+  background: #ffffff;
+  padding: 7px 10px;
+}
+.noChildStyle :global(.iconfont){
+  color: #FF8B00;
+  margin-right: 0;
+  position: relative;
+  top: 3px;
+  font-size: 20px;
+}

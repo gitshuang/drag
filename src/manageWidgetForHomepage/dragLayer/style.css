@@ -1,0 +1,35 @@
+.desk_setting_layer {
+    position: fixed;
+    pointer-events: none;
+    z-index: 100;
+    left: -20px;
+    top: -20px;
+    
+}
+.desk_setting_layer :global(.desk_setting_layer_card_list .layer-card) {
+   
+    position: absolute;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width:176px;
+    height:176px;    
+}
+.desk_setting_layer :global(.layer-card-span) {
+    position: absolute;
+    background:rgba(225,76,70,1);
+    color: #fff;
+    border-radius: 50%;
+    width: 32px;
+    height: 32px;
+    display: inline-block;
+    text-align: center;
+    line-height: 30px;
+    top: 12px;
+    left: 12px;
+    font-size: 12px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+
+}

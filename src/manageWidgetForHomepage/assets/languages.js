@@ -1,33 +1,4 @@
-import logo from './logo.svg';
-import DragDrop from './manageWidgetForHomepage'
-import './App.css';
-
-function App() {
-  return (
-    <div className="App">
-      <DragDrop 
-        menuList={menuList}
-        groupList={manageList}
-        languagesJSON={LanguagesJSON}
-        // history={this.props.history}
-        // match={this.props.match}
-        save={()=>{}}
-        goBack={()=>{}}
-        locale={{}}
-      />
-      {/* <CreateManageModule
-          menuList={menuList}
-          groupList={manageList}
-          languagesJSON={LanguagesJSON}
-          history={this.props.history}
-          match={this.props.match}
-          save={this.setManageListSave}
-          goBack={this.goBack}
-          locale={locale}
-        /> */}
-    </div>
-  );
-}
+//词贴管理
 const manageWidget = {
 	addGroup: '添加分组',
 	groupName_max_words_four: '分组名称,最多4个字符',
@@ -46,7 +17,7 @@ const manageWidget = {
 	to: '到',
 	notSave: '不保存',
 	confirm_to_delete_batch: '您确认要批量删除吗？',
-	notSave_to_lose_new_modify: '点击不保存，则最新修改将丢失',
+	notSave_to_lose_new_modify: '点击不保存，则最新修改将丢失？',
 	addQuick_to_home: '添加快捷方式至首页',
 	all: '全部',
 	search: '搜索',
@@ -67,6 +38,9 @@ const manageWidget = {
 	noDataGroup: '无内容的分组在首页不可见',
 	notice: '拖动下方磁贴至右侧所需位置',
 	inputServiceName:'输入服务名称',
-    noData:'暂无结果',	
+    noData:'暂无结果'	
 };
-export default App;
+
+export default {
+	...manageWidget
+}

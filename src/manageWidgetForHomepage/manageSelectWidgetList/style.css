@@ -1,0 +1,205 @@
+.select_widget_list{
+  position: relative;
+  width: 100%;
+  height: 100%;
+}
+
+.widget_left{
+  width: 190px;
+  height:25px;
+}
+
+.widget_right{
+  -webkit-box-flex:1;
+  position: relative;
+  height: 100%;
+}
+
+.widget_left .title{
+  width: 100%;
+  font-size:19px;
+  font-family:MicrosoftYaHei;
+  color:rgba(71,77,84,1);
+  line-height:25px;
+}
+
+.searchPanel{
+  width: 100%; 
+  border-bottom: 1px solid rgba(208,208,208,1);
+  position: relative;
+  margin: 5px 0;
+  padding-bottom: 18px;
+  position: relative;
+}
+.form_control{
+  width: 360px;
+	height:32px;
+  transition: none;
+  border-radius: 3px 0 0 3px;
+}
+.search_icon_con{
+  width: 95px;
+  height: 32px;
+  position: absolute;
+  top: 0;
+  left: 360px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  border: 1px solid #d0d0d0;
+  border-left: none;
+  border-radius: 0 3px 3px 0;
+}
+.search_icon_con > span{
+  line-height:32px;
+  margin-left: 4px;
+}
+.search_icon_con:hover{
+  background: #f3f3f3;
+}
+.search_icon_con:hover span{
+  color: #E14C46;
+}
+.search_icon_con:hover :global(.iconfont){
+  color: #E14C46;
+}
+
+.panel{
+  width: 100%;
+  /* height: calc(100% - 60px); */
+  height: 100%;
+  display:-webkit-box;
+  display:-ms-flexbox;
+  display:flex;
+  position: relative;
+  padding-top: 30px;
+}
+.panel_left{
+  vertical-align: top;
+  width: 244px;
+  position: relative;
+}
+.panel_left :global(.u-button-group-vertical){
+  height: calc(100% - 40px);
+  border: 1px solid rgba(78,89,104,0.19);
+  border-radius: 3px;
+  padding:20px 0;
+  margin-top: 8px;
+}
+.panel_right{
+  -webkit-box-flex:1;
+  -ms-flex:1;
+  flex:1;
+  overflow-y: scroll;
+  height: 86%;
+}
+.panel_right>div{
+  margin-left: 15px;
+  margin-bottom: 105px
+}
+.panel_right::-webkit-scrollbar{
+    width: 8px;
+}
+.panel_right::-webkit-scrollbar-thumb{
+    border-radius: 8px;
+    background-color: #757575;
+}
+.btn_type button{
+  height: 26px;
+  text-align: left;
+  padding:0 23px;
+}
+.server_type{
+  height: 100%;
+}
+.server_type button{
+  height: 26px;
+  text-align: left;
+  font-size: 14px;
+  font-family: MicrosoftYaHei;
+  color: rgba(85,85,85,1);
+  font-weight: normal;
+} 
+/* .panel_left>div{
+  width: 100%;
+  margin-top: 8px;
+} */
+/* .panel_left>div>button{ */
+  /* height: 26px;
+  text-align: left; */
+  /* padding:0 23px; */
+/* } */
+.panel_left :global(.u-button-group-vertical>.u-button:first-child:not(:last-child)){
+  border-radius:0;
+}
+.panel_left :global(.u-button-border:focus),.panel_left :global(.u-button-border:hover){
+  background: #f3f3f3;
+  color: #555555;
+}
+.panel_left :global(.u-button-group-vertical .active),
+.panel_left :global(.u-button-group-vertical .u-button):active{
+  background: #e4e4e4;
+  color:#E14C46;
+}
+.panel_left :global(.u-button-border){
+  border: none;
+}
+
+.footer_btn{
+  height: 48px;
+  line-height: 48px;
+  width: 100%;
+  position: fixed;
+  left: 0px;
+  bottom: 0px;
+  display: -webkit-box;
+  -webkit-box-pack: end;
+  display:-ms-flexbox;
+  display:flex;
+  -ms-flex-pack: end;
+  justify-content: flex-end;
+  align-items: center;
+  padding-right: 150px;
+  background: rgba(255,255,255,0.8);
+}
+.footer_btn>div{
+  margin-right: 8px;
+}
+.panel_left :global(.u-button-group-vertical){
+  width: 242px;
+}
+.panel_left :global(.u-button-group>button){
+  width:77px;
+  height:32px; 
+  background: #e4e4e4;
+  border-radius: 3px ;
+  margin-right: 2px;
+  font-size:14px;
+  font-family:MicrosoftYaHei;
+  color:rgba(85,85,85,1);
+}
+.btn_active{
+  background:rgba(252,237,236,1) !important;
+  color: #E14C46!important;
+}
+/* 首页编辑-添加服务 */
+:global(.ie9_pop) .search_icon_con>span,:global(.ie9_pop) .search_icon_con>i{ 
+  float: left;
+}
+:global(.ie9_pop) .panel{
+  display: table;
+}
+:global(.ie9_pop) .panel>div{
+  display: table-cell;
+}
+:global(.ie9_pop) .panel_left .u-button-group-vertical{
+  min-height: 395px;
+}
+:global(.ie9_pop) .panel_right>div{
+  height: 450px;
+}
+:global(.ie9_pop) .footer_btn{
+  display: table;
+  text-align: right;
+}

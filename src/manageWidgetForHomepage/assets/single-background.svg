@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="132px" height="132px" viewBox="0 0 132 132" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 52.2 (67145) - http://www.bohemiancoding.com/sketch -->
+    <title>分组 5</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <rect id="path-1" x="0" y="0" width="132" height="132" rx="2.19886364"></rect>
+        <filter x="-1.5%" y="-0.8%" width="103.0%" height="103.0%" filterUnits="objectBoundingBox" id="filter-2">
+            <feOffset dx="0" dy="1" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="0.5" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feComposite in="shadowBlurOuter1" in2="SourceAlpha" operator="out" result="shadowBlurOuter1"></feComposite>
+            <feColorMatrix values="0 0 0 0 0.290196078   0 0 0 0 0.317647059   0 0 0 0 0.364705882  0 0 0 0.1 0" type="matrix" in="shadowBlurOuter1"></feColorMatrix>
+        </filter>
+    </defs>
+    <g id="20190125" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="磁贴移动" transform="translate(-463.000000, -384.000000)">
+            <g id="分组-5" transform="translate(463.000000, 384.000000)">
+                <g id="Rectangle-Copy">
+                    <use fill="black" fill-opacity="1" filter="url(#filter-2)" xlink:href="#path-1"></use>
+                    <rect stroke-opacity="0.19" stroke="#4E5968" stroke-width="0.732954545" stroke-linejoin="square" fill="#FFFFFF" fill-rule="evenodd" x="0.366477273" y="0.366477273" width="131.267045" height="131.267045" rx="2.19886364"></rect>
+                </g>
+                <g id="分组-2" transform="translate(33.000000, 45.000000)">
+                    <rect id="矩形" stroke-opacity="0.203096694" stroke="#C4CED8" opacity="0.897925967" x="0.5" y="0.5" width="65" height="45" rx="4"></rect>
+                    <path d="M6,15 L29,15 C29.5522847,15 30,15.4477153 30,16 L30,38 C30,38.5522847 29.5522847,39 29,39 L6,39 C5.44771525,39 5,38.5522847 5,38 L5,16 C5,15.4477153 5.44771525,15 6,15 Z" id="矩形" fill="#C4CED8" opacity="0.20156715"></path>
+                    <path d="M34,15 L60,15 C60.5522847,15 61,15.4477153 61,16 L61,18 C61,18.5522847 60.5522847,19 60,19 L34,19 C33.4477153,19 33,18.5522847 33,18 L33,16 C33,15.4477153 33.4477153,15 34,15 Z" id="矩形-copy-4" fill="#C4CED8" opacity="0.20156715"></path>
+                    <path d="M34,23 L50,23 C50.5522847,23 51,23.4477153 51,24 L51,26 C51,26.5522847 50.5522847,27 50,27 L34,27 C33.4477153,27 33,26.5522847 33,26 L33,24 C33,23.4477153 33.4477153,23 34,23 Z" id="矩形-copy-5" fill="#C4CED8" opacity="0.20156715"></path>
+                    <path d="M34,31 L40,31 C40.5522847,31 41,31.4477153 41,32 L41,38 C41,38.5522847 40.5522847,39 40,39 L34,39 C33.4477153,39 33,38.5522847 33,38 L33,32 C33,31.4477153 33.4477153,31 34,31 Z" id="矩形-copy-6" fill="#C4CED8" opacity="0.20156715"></path>
+                    <path d="M4,1.09245946e-13 L62,1.09245946e-13 C64.209139,1.04915914e-13 66,1.790861 66,4 L66,10 L0,10 L0,4 C-2.705415e-16,1.790861 1.790861,1.08763579e-13 4,1.08357767e-13 Z" id="矩形-copy-3" fill="#C4CED8" opacity="0.20156715"></path>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>
